@@ -9,8 +9,7 @@ This project uses a pre-trained DeeplabV3 model to perform image segmentation on
 
 ## Setup Instructions
 
-### 1. Clone the Repository
+### Clone the Repository
 
 ```sh
 git clone https://github.com/reetz145/deeplab_semantic
-cd your-repo
