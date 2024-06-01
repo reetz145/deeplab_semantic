@@ -9,14 +9,14 @@ This project uses a pre-trained DeeplabV3 model to perform image segmentation on
 
 ## Setup Instructions
 
-### Clone the Repository
+### Clone the Repository and Run the Docker container
 
 ```sh
 git clone https://github.com/reetz145/deeplab_semantic
 
-### Set Up Docker Image
+Set Up Docker Image
 docker build -t deeplabv3-streamlit
 
-### Run the Docker Container
+Run the Docker Container
 
 docker run -p 8501:8502 deeplabv3-streamlit
