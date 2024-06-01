@@ -1,0 +1,12 @@
+services:
+  prediction_dashboard:
+    build: .
+    command: streamlit run seg_dash.py --server.port=8501 --server.address=0.0.0.0
+    volumes:
+      - .:/app
+
+  drift_detection:
+    build: .
+    command: streamlit run drift_detection.py --server.port=8502 --server.address=0.0.0.0
+    volumes:
+      - .:/app
